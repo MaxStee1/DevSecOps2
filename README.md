@@ -1,6 +1,3 @@
-# devsecops
-Taller para ramo universitario
-
 # 🛡️ MiApp Segura - DevSecOps Pipeline
 
 ## 📋 Descripción del Proyecto
@@ -21,9 +18,10 @@ Crear un pipeline DevSecOps básico que integre controles de seguridad automatiz
 ## 🏗️ Arquitectura
 
 \`\`\`
-
-Frontend (Next.js) ◄──►  Backend API (Next.js API) ◄──► Database (SQLite)
-
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Frontend      │    │   Backend API   │    │   Database      │
+│   (Next.js)     │◄──►│   (Next.js API) │◄──►│   (PostgreSQL)  │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
 \`\`\`
 
 ## 🔧 Tecnologías Utilizadas
