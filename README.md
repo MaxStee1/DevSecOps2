@@ -17,12 +17,12 @@ Crear un pipeline DevSecOps básico que integre controles de seguridad automatiz
 
 ## 🏗️ Arquitectura
 
-\`\`\`
+```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Frontend      │    │   Backend API   │    │   Database      │
 │   (Next.js)     │◄──►│   (Next.js API) │◄──►│   (PostgreSQL)  │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
-\`\`\`
+```
 
 ## 🔧 Tecnologías Utilizadas
 
@@ -53,7 +53,7 @@ Crear un pipeline DevSecOps básico que integre controles de seguridad automatiz
 - Git
 
 ### Instalación Local
-\`\`\`bash
+```bash
 # Clonar repositorio
 git clone https://github.com/tu-usuario/miapp-segura.git
 cd miapp-segura
@@ -66,10 +66,10 @@ cp .env.example .env.local
 
 # Ejecutar en desarrollo
 npm run dev
-\`\`\`
+```
 
 ### Docker
-\`\`\`bash
+```bash
 # Build de la imagen
 docker build -t miapp-segura .
 
@@ -78,7 +78,7 @@ docker run -p 3000:3000 miapp-segura
 
 # O usar Docker Compose
 docker-compose up -d
-\`\`\`
+```
 
 ## 🛡️ Controles de Seguridad Implementados
 
